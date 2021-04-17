@@ -1,0 +1,22 @@
+{
+  "name": "notion-page-downloader",
+  "version": "0.3.4",
+  "description": "Download a Notion page as a HTML file.",
+  "main": "src/index.js",
+  "scripts": {
+    "setup": "node src/setup.js",
+    "start": "node src/index.js",
+    "test": "node test/lib.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragonman225/notion-page-downloader.git"
+  },
+  "author": "dragonman225",
+  "license": "MIT",
+  "dependencies": {
+    "notionapi-agent": "~0.4.0",
+    "notionast-util-from-notionapi": "~0.2.0",
+    "notionast-util-to-html": "0.0.9"
+  }
+}
